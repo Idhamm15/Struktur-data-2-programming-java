@@ -1,0 +1,24 @@
+Jawaban nomer 2 :
+
+
+2.  Adjacent matrix dalam djikstra algorithm merupakan Suatu matriks digunakan untuk menyatakan adjacency set setiap verteks dalam baris-barisnya. Nomor baris menyatakan nomor verteks adjacency berasal dan nomor kolom menunjukkan nomor verteks kemana arah adjacency. Elemen matriks [x, y] berharga 1 bila terdapat sisi dari x ke y dan berharga 0 bila tidak ada.
+
+Harga biner ini memungkinkan penggunaan 1 bit untuk setiap sel matriks. Misalnya pada suatu graph dengan jumlah verteks 48 dapat digunakan 6 byte perbaris (semua 38 baris, jadi diperlukan 48 x 6 byte). Untuk mengetahui harga elemen matrilks maka diperlukan operasi shift-right serts operasi boolean and. Misalnya adjacency dari verteks 15 ke verteks 27 pada contoh 48 verteks di atas maka byte ke ë 27/8û dari baris ke 15 di-shift-right sebanyak (27 mod 8) posisi lalu di-and-kan dengan bilangan 1. Bila hasilnya 1 maka 15 adjacent ke 27, bila 0 maka tidak.
+
+Sebagai contoh hitunglah Jarak terdekat dari V1 ke V7 pada gambar berikut ini.
+
+Hasil setiap stepnya dapat dilihat pada tabel berikut ini.
+
+
+
+
+
+
+
+
+
+Dengan demikian jarak terpendek dari V1 ke V7 adalah 16 dengan jalur V1->V2->V3->V5->V6->V7
+
+Dengan demikian jarak terpendek dari V1 ke V7 adalah 16 dengan jalur V1->V2->V3->V5->V6->V7
+
+

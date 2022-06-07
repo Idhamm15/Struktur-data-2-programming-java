@@ -12,6 +12,7 @@ public class JalankanPerhitungan {
 
 
 
+        
         System.out.println("----------");
         System.out.println("Hasil Perkalian :");
         int hasilkalinya = saya.HasilKaliSaya(45, 60);
